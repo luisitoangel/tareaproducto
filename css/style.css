@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: darkred;
+    background-image: url(../image/632051.png);
+}
+body{
+    width: 700px;
+    height: 900px;
+    background: #204862;
+    margin: auto;
+    opacity: 1;
+}
+
+h1{
+    padding-top: 30px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+    width: 700px;
+    height: 90px;
+    background: chartreuse;
+}
+
+label{
+    color: greenyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+#nombre{
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 160px;
+    height: 30px;
+}
+#nombre::-webkit-input-placeholder {
+    padding-left: 13px;
+    line-height: 100px;/* Centrado vertical */
+}
+#precio{
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 185px;
+    height: 30px;
+}
+#precio::-webkit-input-placeholder {
+    padding-left: 13px;
+    line-height: 100px;/* Centrado vertical */
+}
+#cantidad{
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 160px;
+    height: 30px;
+}
+#cantidad::-webkit-input-placeholder {
+    padding-left: 13px;
+    line-height: 100px;/* Centrado vertical */
+}
+h2{
+    width: 700px;
+    height: 30px;
+    background: darkorange;
+    color: black;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+#tabla{
+    text-align: center;
+    margin-left: 120px;
+    width: 480px;
+    background: seashell;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.formulario{
+    background: crimson;
+    color: azure;
+    border-radius: 4px;
+    margin-left: 360px;
+    width: 120px;
+    height: 37px;
+    margin-bottom: 45px;
+    transition: 2s , color 4s;
+}
+
+th, td{
+    border: solid 1px black;
+    padding: 0;
+}
+#totaltotal{
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 140px;
+    height: 25px;
+}
+#totaligv{
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 140px;
+    height: 25px;
+}
+#total{
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 140px;
+    height: 25px;
+}
+
+.btn_modificar{
+    background: blue;
+    color: azure;
+    border-radius: 4px;
+    margin-left: 360px;
+    width: 120px;
+    height: 37px;
+    margin-bottom: 45px;
+    transition: 2s , color 4s;
+}
