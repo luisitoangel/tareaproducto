@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Producto</title>
+    <link rel="shortcut icon" href="../image/icons8-pequeña-empresa-filled-50.png">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+<body>  
+    <h1>REGISTRO DE VENTAS</h1>
+    <label class="prod" >Producto:</label>
+    <input type="text" id="nombre" placeholder="nombre del producto" autocomplete="off"><br>
+    <label class="pre" >Precio: </label>
+    <input type="text" id="precio" placeholder="precio S/." autocomplete="off"><br>
+    <label class="cant">Cantidad:</label>
+    <input type="text" id="cantidad" placeholder="cantidad"><br>
+    <section id="enviar"> 
+       <input type="submit" class="formulario"  onclick=enviar();>
+    </section>
+    <h2>TABLA DE VENTA</h2>
+    
+    <table class="list"  id="tabla" >
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Producto</th>
+                <th>Precio S/.</th>
+                <th>#Cantidad</th>
+                <th>ST</th>
+                <th>ACTION</th>
+            </tr>
+            <tbody>
+
+            </tbody>
+        </thead>
+        
+    </table>
+    <label class="total" >SUB TOTAL S/.</label>
+    <input type="text" id="subtotal" ><br>
+    <label class="total">IGV 18%</label>
+    <input type="text" id="totaligv"><br>
+    <label class="total">TOTAL S/.</label>
+    <input type="text" id="total"><br>
+    <script src="../js/script.js"></script>
+</body>
+</html> 
